@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>なみたん受験アプリ</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="title">小論文書くための残り時間</h1>
+    <h1 id="timerLabel">60:00</h1>
+    <input type="button" class="myButton" onclick="start()" value="START" id="startBtn">
+    <input type="button" class="myButton" onclick="stop()" value="STOP">
+    <input type="button" class="myButton" onclick="reset()" value="RESET">
+</div>
+<div class="text">
+    <textarea id="text-form">ここに文字を書いてください。</textarea>
+</div>
+<script src="js/main.js">
+</script>
+</body>
